@@ -1,0 +1,129 @@
+/* App.css */
+
+@font-face {
+  font-family: silkscreen;
+  src: url(./fonts/Silkscreen-Regular.ttf);
+}
+
+@font-face {
+  font-family: silkscreenb;
+  src: url(./fonts/Silkscreen-Bold.ttf);
+}
+
+@font-face {
+  font-family: sora;
+  src: url(./fonts/Sora-VariableFont_wght.ttf);
+}
+
+body {
+  font-family: 'Sora','Silkscreen', serif;
+  font-size: 20px;
+  background-color: #ffffff;
+  color: #e4d161;
+  text-align: start;
+  padding-left: 0; 
+  padding-right: 0;
+  padding-top: 0;
+}
+
+
+.App {
+  height: 150vh; /* Set the height of the App container to fill the viewport */
+  overflow: hidden; /* Prevent scrolling */
+}
+
+.movie-list-container {
+  padding-top: 0;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  padding-left: 1%;
+  padding-top: 1%;
+}
+
+.movie-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-direction: row;
+  padding: 0%;
+  max-width: 100%;
+  color: whitesmoke;
+  display: flex;
+  gap: 0%;
+  overflow-x: auto;
+  max-height: 50%;
+  scale: 0.6;
+}
+
+.movie-card {
+  scale: 1.4;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 0;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+
+.movie-poster {
+  height: 60vh;
+  width: 50%;
+  transform: scale(0.6);
+  display: flex;
+  align-items: center;
+}
+
+.movie-poster img {
+  max-width: 100%; 
+  border-radius: 10px;
+  scale: 1.5;
+  padding-left: 25vw;
+  padding-top: 25%;
+}
+
+.movie-poster-details {
+  width: 50%;
+  visibility: visible;
+  padding-top: 20vh;
+}
+
+.movie-poster-details h3 {
+  font-size: 18px;
+  color: #ffffff; 
+}
+
+.movie-poster-details p {
+  font-size: 14px;
+  color: #ffffff; 
+}
+
+
+.movie-card:click {
+  transform: scale(0.2);
+}
+
+.movie-card img {
+  scale: 0.5;
+  border-radius: 0%;
+}
+
+.description {
+  display: none; 
+}
+
+
+.Card{
+
+  width: 100vw;
+  padding-bottom: 0;
+
+}
+
+.random-movie{
+  display: flex;
+}
