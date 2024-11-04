@@ -4,7 +4,7 @@
 
 - Movie Library using React
 
----
+
 
 ## AI-ML
 
@@ -17,14 +17,14 @@
 - Flower Classification Datset
    	- Using neural networks with the help of tensorflow to detect which type of flower each image contains
 
----
+
 
 ## Finance
 
 - Stock-Analysis
 	- Using yfinance to Analyze the financials of Stocks
 
----
+
 
 ## Game dev
 
@@ -42,7 +42,7 @@
 - Shootergame
 	- Simple but colorful shootergame
 
----
+
 
 ## Other
 - Collatz Conjecture
