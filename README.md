@@ -1,14 +1,18 @@
 # Mini-Projects
+
 ## Web - dev
 - Movie Library using React
+
 
 ## AI-ML
 - RAG
 	- Using Langchain to allow the user to chat with documents
 
+
 ## Finance
 - Stock-Analysis
 	- Using yfinance to Analyze the financials of Stocks
+
 
 ## Game dev
 - Pac-A-maze
@@ -24,6 +28,7 @@
 
 - Shootergame
 	- Simple but colorful shootergame
+
 
 ## Other
 - Collatz Conjecture
