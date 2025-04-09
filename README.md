@@ -33,3 +33,5 @@
 ## Other
 - Collatz Conjecture
 	- Visualizing the CollatzConjecture using matplotlib
+- Document Scanner
+   	- simulates the basic functionality of a document scanner. It detects the boundaries of a document in an image and applies a perspective transformation to generate a top-down "scanned" version of 	  it.
